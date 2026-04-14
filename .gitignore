@@ -1,0 +1,48 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+build/
+dist/
+*.whl
+
+# Tooling
+.coverage
+coverage.xml
+htmlcov/
+
+# Eval / benchmark artifacts
+evals/
+benchmarks/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Extra safety
+.python-version
+*.log
+*.bak
+corpus.json
+C:Users*/
